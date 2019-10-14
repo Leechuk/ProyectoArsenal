@@ -422,6 +422,8 @@ MonoBehaviour:
   bala: {fileID: 8189911267295620700, guid: 3a0492ef7e401a84f8d5adb9b6f98897, type: 3}
   pOrigen: {fileID: 569908726}
   fuerza: 500
+  prefabImpacto: {fileID: 3913492264195303785, guid: c3e0952e5da3cbb46a8dd6739fa28124,
+    type: 3}
 --- !u!114 &92338079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -477,7 +479,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 93627173}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
@@ -1531,8 +1533,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023339127}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.72, y: 1.193, z: -1.17}
-  m_LocalScale: {x: 1, y: 2.526, z: 1.71306}
+  m_LocalPosition: {x: -2.72, y: 1.213, z: -1.268}
+  m_LocalScale: {x: 1, y: 2.490415, z: 1.7319889}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -2802,9 +2804,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f65056fc5d1ea6b42a809cb8b52750b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bala: {fileID: 8189911267295620700, guid: 2ea1387655f6ef041b86c988f3d731ca, type: 3}
+  bala: {fileID: 5153059463427097650, guid: fdc56bb89e1362043b883afe607efcdb, type: 3}
   pOrigen: {fileID: 793688664}
-  fuerza: 100
+  fuerza: 600
 --- !u!114 &1873978073
 MonoBehaviour:
   m_ObjectHideFlags: 0
