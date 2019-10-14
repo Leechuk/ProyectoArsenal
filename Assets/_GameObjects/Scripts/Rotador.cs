@@ -19,9 +19,16 @@ public class Rotador : MonoBehaviour
     {
         x = Input.GetAxis("Horizontal");
         y = Input.GetAxis("Vertical");
-        transform.Rotate(y*-1, x, 0);
+        print(transform.rotation.eulerAngles.x);
+        /*if(transform.rotation.eulerAngles.x>10 || transform.rotation.eulerAngles.x < 350)
+        {
+            transform.Rotate(0, x, 0, Space.World);
+            transform.Rotate(y * -1, 0, 0);
+        }*/
+        transform.Rotate(0, x, 0, Space.World);
+        transform.Rotate(y * -1, 0, 0);
 
-       
+
 
     }
 

@@ -24,7 +24,7 @@ public class DisparadorSniper : MonoBehaviour
 
             print("Dispara");
 
-            Debug.DrawRay(pOrigen.position, pOrigen.forward * 100, Color.green);//color de seguimiento
+            Debug.DrawRay(pOrigen.position, pOrigen.forward * 100, Color.green, 5);//color de seguimiento
         }
     }
 

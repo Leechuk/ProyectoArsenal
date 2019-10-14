@@ -16,6 +16,8 @@ public class Flecha : MonoBehaviour
         GetComponent<Rigidbody>().isKinematic = true;
         GetComponent<BoxCollider>().enabled = false;
         transform.SetParent(other.transform);
+        transform.localScale = new Vector3(1 / transform.parent.localScale.x, 1 / transform.parent.transform.localScale.y, 1 / transform.parent.transform.localScale.z);
+        Destroy(this);//Destruimos el SCRIPT para que no continue con la Rotacion
     }
 
     /*private void OnCollisionEnter(Collision collision)
